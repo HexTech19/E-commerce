@@ -1,6 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cookieSession = require('cookie-session');
+const multer = require('multer');
+
 const authRouter = require('./routes/admin/auth');
 const productRouter = require('./routes/admin/products');
 
