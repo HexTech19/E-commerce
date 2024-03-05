@@ -1,5 +1,5 @@
 const layout = require('../layout');
-const { getError } = require('../../helpers');
+// const { getError } = require('../../helpers');
 
 module.exports = ({ req, errors }) => {
   console.log(errors);
